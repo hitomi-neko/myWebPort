@@ -48,14 +48,20 @@ h1{
   padding: 0%;
   margin: 0;
   overflow: hidden;
+  filter: grayscale(90%);
 }
 .cover img{
-    /* filter: grayscale(90%); */
     padding: 0%;
     width:100%;
     height:150px;
     object-fit:cover;
     margin: 0%;
+    z-index: -30;
+    opacity: 0.8;
+}
+
+.cover:hover{
+    filter: grayscale(0%);
 }
 
 .cover h3{
@@ -67,6 +73,8 @@ h1{
   padding: 0%;
   margin: 0%;
   color: #ffffff;
+  opacity: 1.0;
+  z-index: 10;
 }
 .cover p{
   width:100%;
@@ -76,9 +84,23 @@ h1{
   line-height: 150px;
   padding: 0%;
   color: #ffffff;
+  opacity: 1.0;
+  z-index: 10;
 }
 
+#footer{
+    height:150px;
+}
 
+#footer p{
+    padding-top: 30px;
+}
+a{
+    color: #3a3833;
+}
+a:hover{
+    opacity: 0.5;
+}
 *{
     padding : 0px;
     margin: 0, auto;
