@@ -1,0 +1,38 @@
+*{
+    padding : 0px;
+    margin: 0, auto;
+}
+body{
+    background: #fffffb;
+}
+.warp{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0,auto;
+    padding: 0%;
+}
+#header img{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+p{
+    display: block;
+    width: 80%;
+    padding-left: 10%;
+    font-size: 0.9rem;
+    color: #3a3833;
+}
+
+h2{
+    color: #3a3833;
+}
+h3{
+    color: #3a3833;
+}
+h1{
+    color: #3a3833;
+}
