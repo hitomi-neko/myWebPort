@@ -20,7 +20,7 @@ body{
     padding: 0%;
 }
 #header{
-    background: #3a3a3a;
+    background: #1a1a1a;
     color: #ffffff;
 }
 
@@ -32,6 +32,7 @@ body{
     color: #ffffff;
     padding-bottom: 30px;
 }
+
 #header img{
     width: 200px;
     height: auto;
@@ -46,17 +47,17 @@ p{
     width: 80%;
     padding-left: 10%;
     font-size: 0.9rem;
-    color: #3a3a3a;
+    color: #1a1a1a;
 }
 
 h2{
-    color: #3a3a3a;
+    color: #1a1a1a;
 }
 h3{
-    color: #3a3a3a;
+    color: #1a1a1a;
 }
 h1{
-    color: #3a3a3a;
+    color: #1a1a1a;
 }
 
 .cover{
@@ -105,25 +106,32 @@ h1{
   z-index: 10;
 }
 
-#works{
+#about a{
+    color: #1a1a1a;
+}
+
+
+#about,#works{
     padding-bottom: 50px;
 }
 
 #footer{
     height:150px;
-    background: #3a3a3a;
+    background: #1a1a1a;
 }
 
 #footer p{
     padding-top: 30px;
     color: #ffffff;
 }
-a{
+#footer a{
     color: #ffffff;
 }
+
 a:hover{
     opacity: 0.5;
 }
+
 *{
     padding : 0px;
     margin: 0, auto;
