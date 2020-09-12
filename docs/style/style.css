@@ -6,11 +6,13 @@ body{
     width: 100%;
     font-family: ten-mincho-text, serif;
 }
+
 .main{
     padding: 0px;
     margin: 0px;
     width: 100%;
 }
+
 .warp{
     width: 100%;
     text-align: center;
@@ -19,6 +21,7 @@ body{
     margin: 0,auto;
     padding: 0%;
 }
+
 #header{
     background: #1a1a1a;
     color: #ffffff;
@@ -92,7 +95,13 @@ h1{
     z-index: -30;
     opacity: 0.68;
 }
-
+#myimage{
+     width: 200px;
+    height: auto;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    padding-top: 20px;
+}
 .cover:hover{
     filter: grayscale(0%);
 }
@@ -147,13 +156,6 @@ a:hover{
     opacity: 0.5;
 }
 
-li{
-    width: 80%;
-    text-align: left;
-    margin: 0,auto;
-    padding-left: 10%;
-}
-
 .flexwrap{
 	display: flex;
     flex-wrap: wrap;
@@ -175,6 +177,19 @@ li{
     margin: 0,auto;
     text-align: left;
 }
+
+.title{
+    width: 100%;
+    background: #1a1a1a;
+    padding: 0px;
+    height: 55px;
+}
+
+.title h2{
+    color: #ffffff;
+    padding-top: 10px;
+}
+
 *{
     padding : 0px;
     margin: 0, auto;
