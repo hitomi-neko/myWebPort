@@ -51,12 +51,27 @@ p{
 }
 
 h2{
+    display: block;
+    width: 80%;
+    padding-left: 10%;
     color: #1a1a1a;
 }
 h3{
+    display: block;
+    width: 80%;
+    padding-left: 10%;
+    color: #1a1a1a;
+}
+h4{
+    display: block;
+    width: 80%;
+    padding-left: 10%;
     color: #1a1a1a;
 }
 h1{
+    display: block;
+    width: 80%;
+    padding-left: 10%;
     color: #1a1a1a;
 }
 
@@ -111,7 +126,7 @@ h1{
 }
 
 
-#about,#works{
+#about,#works,#contact{
     padding-bottom: 50px;
 }
 
@@ -130,6 +145,26 @@ h1{
 
 a:hover{
     opacity: 0.5;
+}
+
+li{
+    width: 80%;
+    text-align: left;
+    margin: 0,auto;
+    padding-left: 10%;
+}
+
+.flexwrap{
+	display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.flexwrap > p{
+    width: 100px;
+    margin: 0,auto;
 }
 
 *{
