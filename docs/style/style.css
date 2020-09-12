@@ -1,9 +1,10 @@
 
 body{
-    background: #fffffb;
+    background: #fbfbfb;
     padding: 0px;
     margin: 0px;
     width: 100%;
+    font-family: ten-mincho-text, serif;
 }
 .main{
     padding: 0px;
@@ -18,10 +19,26 @@ body{
     margin: 0,auto;
     padding: 0%;
 }
+#header{
+    background: #3a3a3a;
+    color: #ffffff;
+}
+
+#header h1{
+    color: #ffffff;
+}
+
+#header h3{
+    color: #ffffff;
+    padding-bottom: 30px;
+}
 #header img{
     width: 200px;
     height: auto;
     margin: 0 auto;
+    filter: grayscale(100%);
+    padding-top: 30px;
+    /* opacity: 0.9; */
 }
 
 p{
@@ -29,17 +46,17 @@ p{
     width: 80%;
     padding-left: 10%;
     font-size: 0.9rem;
-    color: #3a3833;
+    color: #3a3a3a;
 }
 
 h2{
-    color: #3a3833;
+    color: #3a3a3a;
 }
 h3{
-    color: #3a3833;
+    color: #3a3a3a;
 }
 h1{
-    color: #3a3833;
+    color: #3a3a3a;
 }
 
 .cover{
@@ -48,7 +65,7 @@ h1{
   padding: 0%;
   margin: 0;
   overflow: hidden;
-  filter: grayscale(90%);
+  filter: grayscale(99%);
 }
 .cover img{
     padding: 0%;
@@ -88,15 +105,21 @@ h1{
   z-index: 10;
 }
 
+#works{
+    padding-bottom: 50px;
+}
+
 #footer{
     height:150px;
+    background: #3a3a3a;
 }
 
 #footer p{
     padding-top: 30px;
+    color: #ffffff;
 }
 a{
-    color: #3a3833;
+    color: #ffffff;
 }
 a:hover{
     opacity: 0.5;
