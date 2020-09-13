@@ -1,6 +1,6 @@
 
 body{
-    background: #fbfbfb;
+    background: #f0f0f0;
     padding: 0px;
     margin: 0px;
     width: 100%;
@@ -173,19 +173,20 @@ a:hover{
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
+    justify-content: center;
     padding-bottom: 30px;
     width: 80%;
     padding-left: 10%;
 }
 
 .flexs{
-    min-width: 190px;
+    min-width: 150px;
     padding: 0px;
     margin: 0,auto;
     text-align: center;
 }
 .flexitem{
-    min-width: 500px;
+    min-width: 400px;
     margin: 0,auto;
     text-align: left;
 }
@@ -202,6 +203,34 @@ a:hover{
     padding-top: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.flexworks > img{
+    padding: 0%;
+    width:230px;
+    height:230px;
+    object-fit:cover;
+    margin: 0%;
+    z-index: -30;
+    opacity: 0.9;
+}
+
+.flexworks > p{
+    width: 230px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+.flexworks{
+    background: #ffffff;
+    filter: grayscale(99%);
+    margin: 15px;
+}
+
+.flexworks:hover{
+    filter: grayscale(0%);
+    opacity: 0.8;
 }
 
 *{
