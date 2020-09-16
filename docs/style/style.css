@@ -118,7 +118,7 @@ h1{
     opacity: 0.68;
 }
 #myimage{
-     width: 200px;
+    width: 200px;
     height: auto;
     margin: 0 auto;
     filter: grayscale(100%);
@@ -248,7 +248,12 @@ a:hover{
 
 .swiper-container{
    width: 80%;
-   height: 400px;
+   height: 400px
+}
+.swiper-slide > img{
+    width: 100%;
+    height: 400px;
+    object-fit:cover;
 }
 
 *{
