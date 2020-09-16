@@ -13,8 +13,8 @@
                 h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
         })(document);
     </script>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/swiper.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/swiper.min.css">
     <title>MIYAZAKI Hitomi</title>
     <link rel="icon" href="./image/favicon.ico">
 </head>
@@ -74,6 +74,15 @@
                         2019/04~2019/11
                     </p>
                 </div>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./image/inta_B.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/network.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/pm00.jpg" alt=""></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
             <div class=warp>
                 <!-- <h3>OTHERS</h3> -->
@@ -146,8 +155,8 @@
             </div>
         </div>
     </div>
-    <script src="js/sketch.js"></script>
-    <script src="js/swiper.min.js"></script>
+    <script src="./js/sketch.js"></script>
+    <script src="./js/swiper.min.js"></script>
 </body>
 
 </html>
