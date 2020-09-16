@@ -79,6 +79,10 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./image/inta_B.jpg" alt="">
+                        <p>
+                            Visualization of Fractions<br>
+                            2020/07~2020/08
+                        </p>
                     </div>
                     <div class="swiper-slide"><img src="./image/network.png" alt=""></div>
                     <div class="swiper-slide"><img src="./image/pm00.jpg" alt=""></div>
@@ -160,7 +164,12 @@
     <script src="./js/sketch.js"></script>
     <script src="./js/swiper.min.js"></script>
     <script>
-        var swiper = new Swiper('.swiper-container');
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
     </script>
 </body>
 
