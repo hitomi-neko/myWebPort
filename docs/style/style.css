@@ -255,9 +255,11 @@ a:hover{
     height: 500px;
     object-fit:cover;
 }
+
 .nav > img{
     width: 95%;
     height: auto;
+    margin-left: 2.5%;
 }
 .thumbnail .swiper-slide{
     filter: grayscale(99%);
