@@ -321,6 +321,10 @@ a:hover{
     opacity: 0.8;
 }
 
+#feature{
+    padding-bottom: 20px;
+}
+
 *{
     padding : 0px;
     margin: 0px;
