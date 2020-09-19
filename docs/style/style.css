@@ -252,8 +252,59 @@ a:hover{
 
 .swiper-slide > img{
     width: 100%;
-    height: 500px;
+    height: 450px;
     object-fit:cover;
+}
+
+.swiper-slide{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.whiteback{
+    background: #ffffff;
+    margin-bottom: 10px;
+}
+.swiper-contents-img{
+    width: 30%;
+    height: 450px;
+    margin: 10px;
+}
+
+.swiper-contents-img > img{
+    width: 100%;
+    height: 450px;
+    object-fit:cover;
+}
+
+.swiper-contents-text{
+    width: 60%;
+    /* height: 450px; */
+}
+
+.swiper-contents-text > h2{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 1.25rem;
+    color: #1a1a1a;
+}
+.swiper-contents-text > h3{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 0.95rem;
+    color: #1a1a1a;
+}
+.swiper-contents-text > p{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 0.85rem;
+    color: #1a1a1a;
+}
+.swiper-contents-text > a{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 0.85rem;
+    color: #1a1a1a;
 }
 
 .nav > img{
