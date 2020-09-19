@@ -259,6 +259,14 @@ a:hover{
     width: 95%;
     height: auto;
 }
+.thumbnail .swiper-slide{
+    filter: grayscale(99%);
+}
+
+.thumbnail .swiper-slide-active{
+    filter: grayscale(0%);
+    opacity: 0.8;
+}
 
 *{
     padding : 0px;
