@@ -75,23 +75,25 @@
                     </p>
                 </div>
             </div>
-            <div class="swiper-container">
+            <div class="swiper-container slider">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./image/技術書典.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./image/inta_B.jpg" alt="">
-                        <p>
-                            Visualization of Fractions<br>
-                            2020/07~2020/08
-                        </p>
-                    </div>
-                    <div class="swiper-slide"><img src="./image/network.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/inta_B.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="./image/pm00.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/技術書典.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/network.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/kanban3.jpg" alt=""></div>
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
+            </div>
+            <div class="swiper-container thumbnail">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./image/inta_B.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/pm00.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/技術書典.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/network.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/kanban3.jpg" alt=""></div>
+                </div>
             </div>
             <div class=warp>
                 <!-- <h3>OTHERS</h3> -->
@@ -167,11 +169,32 @@
     <script src="./js/sketch.js"></script>
     <script src="./js/swiper.min.js"></script>
     <script>
-        var swiper = new Swiper('.swiper-container', {
+        var mainSlider = new Swiper('.slider', {
+            centeredSlides: true,
+            loop: true,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             }
+        });
+
+        //サムネイル
+        var Thumbnail = new Swiper('.thumbnail', {
+            slidesPerView: 5,
+            loop: true,
+            centeredSlides: true,
+            slideToClickedSlide: true,
+        });
+
+        // スライド遷移時にイベントが発生する slideChange というAPIを使用
+        // スライダーをスライドした時にサムネイルを移動させる
+        mainSlider.on('slideChange', () => {
+            // realIndex は現在activeになっているスライドの番号が入っている
+            Thumbnail.slideToLoop(mainSlider.realIndex);
+        });
+        // サムネイルをスライドした時にメインスライドを連動させる(上記と逆)
+        Thumbnail.on('slideChange', () => {
+            mainSlider.slideToLoop(Thumbnail.realIndex);
         });
     </script>
 </body>
