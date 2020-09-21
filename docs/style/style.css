@@ -279,6 +279,7 @@ a:hover{
 
 .swiper-contents-text{
     width: calc(80vw - 350px);
+    height: 450px;
     /* height: 450px; */
 }
 
