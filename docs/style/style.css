@@ -246,17 +246,17 @@ a:hover{
     opacity: 0.8;
 }
 
-.swiper-container{
+.swiper-container,.workitems{
    width: 80%;
 }
 
-.swiper-slide > img{
+.swiper-slide > img,.work-slide > img{
     width: 100%;
     height: 450px;
     object-fit:cover;
 }
 
-.swiper-slide{
+.swiper-slide,.work-slide{
     display: flex;
     flex-wrap: wrap;
 }
@@ -265,43 +265,43 @@ a:hover{
     background: #ffffff;
     margin-bottom: 10px;
 }
-.swiper-contents-img{
+.swiper-contents-img,.work-contents-img{
     width: 300px;
     height: 450px;
     margin: 10px;
 }
 
-.swiper-contents-img > img{
+.swiper-contents-img > img,.work-contents-img > img{
     width: 100%;
     height: 450px;
     object-fit:cover;
 }
 
-.swiper-contents-text{
+.swiper-contents-text,.work-contents-text{
     width: calc(80vw - 400px);
     height: 450px;
     /* height: 450px; */
 }
 
-.swiper-contents-text > h2{
+.swiper-contents-text > h2,.work-contents-text > h2{
     width: 100%;
     padding-left: 10px;
     font-size: 1.25rem;
     color: #1a1a1a;
 }
-.swiper-contents-text > h3{
+.swiper-contents-text > h3,.work-contents-text > h3{
     width: 100%;
     padding-left: 10px;
     font-size: 0.95rem;
     color: #1a1a1a;
 }
-.swiper-contents-text > p{
+.swiper-contents-text > p,.work-contents-text > p{
     width: 100%;
     padding-left: 10px;
     font-size: 0.9rem;
     color: #1a1a1a;
 }
-.swiper-contents-text > a{
+.swiper-contents-text > a,.work-contents-text > a{
     width: 100%;
     padding-left: 10px;
     font-size: 0.9rem;
