@@ -246,10 +246,17 @@ a:hover{
     opacity: 0.8;
 }
 
-.swiper-container,.workitems{
-   width: 80%;
+.worker{
+    width: 80%;
+    margin-left: 10%;
 }
-
+.swiper-container,.workitems{
+   width: 80vw;
+}
+.workitems{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 .swiper-slide > img,.work-slide > img{
     width: 100%;
     height: 450px;
