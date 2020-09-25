@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'hex1ktx',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <link rel="stylesheet" href="../style/style.css">
+    <title>MIYAZAKI Hitomi</title>
+    <link rel="icon" href="../image/favicon.ico">
+</head>
+
+<body>
+    <div id="main">
+        <div class=warp>
+            <div class="title">
+                <h2>WORKS:VOLUNTEER CENTER</h2>
+            </div>
+            <p>ボランティアセンターでの制作物です。</p>
+        </div>
+        <div class="worker">
+            <div class="workitems">
+                <div class="work-slide whiteback">
+                    <div class="work-contents-img">
+                        <img src="../image/kanban.jpg" alt="">
+                    </div>
+                    <div class="work-contents-text">
+                        <h2>都立大ボランティアセンター看板<br>
+                            2020/02~2020/03</h2>
+                        <h3>使用ツール：Illustrator<br>ボランティアセンターでの制作（デザイン）</h3>
+                        <p>
+                            大学名が首都大から都立大へと変化する中で、センターの看板も作りなすこととなり、そのデザインを担当した。
+                            制作にあたっては複数の色パターンを制作し、そこから職員の方々の会議で色が決定した。
+                        </p>
+                        <p>ボランティアによる人と人との繋がりをテーマにイラストを制作した。
+                            また、ボランティアセンターとは「人と人」「ボランティアと人」「人と地域」…と多様な繋がりを結ぶ機関である。
+                            そうしたイメージをリボンや一筆書きという絵に込めた。
+                            そして都立大のスクールカラーである青を多く使ったデザインに仕上げた。</p>
+                        <a href="html/ia_work.html">
+                            もっと読む
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="workitems">
+                <div class="work-slide whiteback">
+                    <div class="work-contents-img">
+                        <img src="../image/work/第一号.jpg" alt="">
+                    </div>
+                    <div class="work-contents-text">
+                        <h2>ぼらせん便り<br>
+                            2018/11~</h2>
+                        <h3>使用ツール：Illustrator<br>ボランティアセンターでの制作（担当：デザイン・編集）</h3>
+                        <p>
+                            学生から学生に、をコンセプトに制作した広報誌です。
+                        </p>
+                        <a href="html/ia_work.html">
+                            もっと読む
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id=footer>
+            <div class=warp>
+                <p>created by MIYAZAKI Hitomi</p>
+                <a href="https://www.openprocessing.org/user/226706" target="_blank">openprocessing</a>
+                <a href="https://github.com/hitomi-neko" target="_blank">github</a>
+            </div>
+        </div>
+    </div>
+    <script src="../js/sketch.js"></script>
+</body>
+
+</html>
