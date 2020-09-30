@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'hex1ktx',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <link rel="stylesheet" href="../style/style.css">
+    <title>MIYAZAKI Hitomi</title>
+    <link rel="icon" href="../image/favicon.ico">
+</head>
+
+<body>
+    <div id="main">
+        <div class=warp>
+            <div class="title">
+                <h2>WORKS:ALL WORKS</h2>
+            </div>
+            <p>
+                その他の自主制作物です。
+            </p>
+        </div>
+        <div class="worker">
+            <div class="workitems">
+                <div class="work-slide whiteback">
+                    <div class="work-contents-img">
+                        <img src="../image/lifegame.png" alt="">
+                    </div>
+                    <div class="work-contents-text">
+                        <h2>lifegame<br>
+                            2020/08/12</h2>
+                        <h3>使用ツール：processing<br>自主製作</h3>
+                        <p>
+                            daily codingのひとつ。隣接セルの状況で自身の塗りを判定するというライフゲーム。
+                        </p>
+                        <a href="https://www.openprocessing.org/sketch/944390" target="_blank">ソースコード</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="workitems">
+                <div class="work-slide whiteback">
+                    <div class="work-contents-img">
+                        <img src="../image/work/robo3.jpg" alt="">
+                    </div>
+                    <div class="work-contents-text">
+                        <h2>ロボットのモデリング<br>
+                            2020/0426</h2>
+                        <h3>使用ツール：cinema4d<br>自主製作</h3>
+                        <p>
+                            プロジェクションマッピング2019キャラクターのロボットをモデリング。
+                            cinema4dにて作成。
+                            制作時間は約3時間。
+                        </p>
+                        <p>
+                            以下のチュートリアルを参考にしました。
+                        </p>
+                        <a href="https://greyscalegorilla.com/tutorials/askgsg-22-how-to-create-a-water-tank-scene/"
+                            target="_blank">
+                            https://greyscalegorilla.com/tutorials/askgsg-22-how-to-create-a-water-tank-scene/</a>
+                        <p></p>
+                        <a href="html/ia_work.html">
+                            もっと見る
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id=footer>
+            <div class=warp>
+                <p>created by MIYAZAKI Hitomi</p>
+                <a href="https://www.openprocessing.org/user/226706" target="_blank">openprocessing</a>
+                <a href="https://github.com/hitomi-neko" target="_blank">github</a>
+            </div>
+        </div>
+    </div>
+    <script src="../js/sketch.js"></script>
+</body>
+
+</html>
